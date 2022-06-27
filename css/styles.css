@@ -101,21 +101,19 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.06em;
 }
 
 .features-list .title{
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 
-.activity .activity-title {
+.section-title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -127,14 +125,6 @@ body {
 
 .team-list .employee{
     background-color: var(--primary-white-color);
-}
-
-.team .team-title{
-    color: var(--title-text-color);
-    font-style: normal;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;   
 }
 
 .employee .name{
@@ -203,9 +193,13 @@ address{
     color: var(--primary-white-color);
 }
 
+.active{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
 .projects-list .name{
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -214,7 +208,7 @@ address{
 
 .projects-list .type{
     font-size: 16px;
-    line-height: 30px; 
+    line-height: 1.88; 
 }
 
 
